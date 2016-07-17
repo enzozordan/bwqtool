@@ -13,16 +13,16 @@
 int main()
 {
 	FILE *archivo;
-	char c;							//caracter leido de archivo csv
-	char valor[7];					//reservo 7 caracteres para valor de densidad
-	float valores[26];				//declaro vector de valores reales con 26 pistas
-	int comas = 0;					//contador de comas para detectar la columna 48 (despues de coma 47)
-	int existe_punto = 0;			//bandera para saber si la variable valor contiene un punto
-	int i = 0;						//var aux generica
-	int pista = 0;					//contador de pistas (para no tener en cuenta pista>26 que son siempre cero)
-	int barrido = 0;				//cantidad de barridos o mediciones en el archivo
-	int linea = 0;					//cantidad de lineas (suponiendo que cada una termina con el ascii 13 (o OD))
-	int eslaultima = 0;				//bandera para saber si estoy en la ultima linea
+	char c;				//caracter leido de archivo csv
+	char valor[7];			//reservo 7 caracteres para valor de densidad
+	float valores[26];		//declaro vector de valores reales con 26 pistas
+	int comas = 0;			//contador de comas para detectar la columna 48 (despues de coma 47)
+	int existe_punto = 0;		//bandera para saber si la variable valor contiene un punto
+	int i = 0;			//var aux generica
+	int pista = 0;			//contador de pistas (para no tener en cuenta pista>26 que son siempre cero)
+	int barrido = 0;		//cantidad de barridos o mediciones en el archivo
+	int linea = 0;			//cantidad de lineas (suponiendo que cada una termina con el ascii 13 (o OD))
+	int eslaultima = 0;		//bandera para saber si estoy en la ultima linea
 	float promedio_izquierda = 0.0;	//promedio de 13 pistas de la izquierda
 	float promedio_derecha = 0.0;	//promedio de 13 pistas de la derecha
 
