@@ -1,10 +1,3 @@
-# bwqtool
-Personal tool  to extract some numbers from a particular csv file
+# Parseando un CSV con C
 
-C language. I run this on Windows and Ubuntu. I use GCC to compile.
-
-This is a personal tool that solves a problem in my job.
-I share this little project to learn how to use github.
-
-Esta una herramienta personal que surgió como una necesidad en el ámbito laboral.
-He decidido compartir el código para aprender a usar github.
+Este es un pequeño programa en C que escribí hace unos años para extraer y promediar unos valores dentro de un archivo CSV.
